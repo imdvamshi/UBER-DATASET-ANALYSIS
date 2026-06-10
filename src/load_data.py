@@ -10,7 +10,7 @@ def load_tables():
     'locations' : pd.read_sql_query("SELECT * FROM locations",conn),
     'trips' : pd.read_sql_query("SELECT * FROM trips",conn),
     'payments' : pd.read_sql_query("SELECT * FROM payments",conn),
-    'reviews' : pd.read_sql_query("SELECT * FROM  payments",conn),
+    'reviews' : pd.read_sql_query("SELECT * FROM  reviews",conn),
     'cancellations' : pd.read_sql_query("SELECT * FROM cancellations",conn)
     }
     return tables
