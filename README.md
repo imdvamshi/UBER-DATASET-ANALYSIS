@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="uber_rideshare.jpg" width="1000">
+  <img src="uber_rideshare.jpg" width="180">
 </p>
 
 # 🚖 UBER DATASET ANALYSIS
